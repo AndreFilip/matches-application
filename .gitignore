@@ -1,0 +1,46 @@
+# Maven build directory
+/target/
+
+# IntelliJ IDEA specific files
+.idea/
+*.iml
+*.iws
+
+# Eclipse specific files
+.classpath
+.project
+.settings/
+
+# VS Code specific files
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+/logs/
+/*.log
+
+# Environment files
+.env
+
+# Spring Boot specific
+# Ignore local application properties or YAML files
+application-*.properties
+application-*.yml
+
+# Temp files
+*.swp
+*.bak
+*.tmp
+
+# Test reports
+/test-output/
+/surefire-reports/
+
+# Dependency cache
+/.mvn/
+
+# Ignore files generated during Maven build
+.mvn/timing.properties
